@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alper Buğra Açıcı - Blogging</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+
+        .headline_edit {
+            font-size: 65px;
+            font-weight: bold;
+            font-style: italic;
+            transition: 0.6s;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .headline_edit:hover {
+            color: red;
+        }
+
+        nav {
+            display: flex; /* Flexbox ile yan yana dizme */
+            justify-content: center; /* Ortalamak için */
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            border: 5px solid transparent;
+            transition: 0.6s;
+        }
+
+        .e_button, .a_button, .h_button {
+            background-color: blue;
+            color: white;
+        }
+
+        .e_button:hover, .a_button:hover, .h_button:hover {
+            box-shadow: 30px 30px 30px rgba(0, 0, 0, 1);
+        }
+
+        .e_button:active, .a_button:active, .h_button:active {
+            color: blue;
+            background-color: white;
+        }
+
+        .text_editting {
+            font-size: 50px;
+            font-style: oblique;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            display: block;
+            margin: 10px;
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-container {
+            margin-left: 715px;
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="headline_edit">BLOGGING</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="https://www.tanokullari.com/" target="_blank">Education Life</a>
+            <a href="https://www.nba.com/" target="_blank">Ability</a>
+            <a href="https://code.org/" target="_blank">Hobbies</a>
+        </nav>
+        <button class="e_button">Education Life</button>
+        <button class="a_button">Ability</button>
+        <button class="h_button">Hobbies</button>
+    </header>
+    <main>
+        <div class="image-container">
+            <h2>My Favorite Car</h2>
+            <img src="Mercedes-AMG-GT-63-S.webp" alt="Description of image" width="600">
+        </div>
+        <div class="video-container">
+            <h2>My Favorite Video</h2>
+            <video controls src="car.mp4" width="600"></video>
+        </div>
+        <p class="text_editting">
+            I am going to mention about myself. My name is Alper Buğra Açıcı. I am 22. In the future, I intend to have diverse, wonderful <strong>web design skills</strong>. I live in Bursa. I enjoy drawing, playing story-mode computer games, coding, improving myself, and producing new things. I have some aims in this life as I mentioned to you and one of the most attractive targets is having a Mercedes car, and above, I have brought some Mercedes cars as you can see enjoy it while looking at.
+        </p>
+        
+    <footer>
+        <p>&copy; 2024 Alper Buğra Açıcı 2121032046. All rights reserved.</p>
+    </footer>
+</body>
+</html>
